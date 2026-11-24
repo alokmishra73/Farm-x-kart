@@ -1,0 +1,28 @@
+# Farm-X-Kart
+
+Farm-X-Kart is a React application built with Vite.
+
+## Project structure
+
+- `index.html` is the Vite entry document.
+- `src/main.jsx` mounts the React application and router.
+- `src/App.jsx` defines routes and page metadata.
+- `src/pages/` contains the page components.
+- `src/styles/` contains page-specific stylesheets.
+- `src/hooks/` contains shared React hooks.
+- `src/legacy/` contains existing browser behavior used by the pages.
+- `public/images/` contains static images served from `/images`.
+
+## Development
+
+```sh
+npm install
+npm run dev
+```
+
+## Production
+
+```sh
+npm run build
+npm run preview
+```
